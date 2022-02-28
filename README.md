@@ -1,23 +1,14 @@
-# qlkit-todo-demo
+# EconIsle
 
-This is a "batteries included" demo of qlkit- [Try a live version here](http://forwardblockchain.com/qlkit-todomvc/)
+This is an unfinished economics simulation game. I don't really recommend anyone download this in its current state, but it does run fine (recommend using cider and "cider-jack-in-clj&cljs to start)
 
-Please read the [recommended qlkit introductory article](https://medium.com/p/79b7b118ddac) for a walkthrough of this application.
+I will likely rewrite it from scratch if this prototype is ever developed into a more complete program. The most interesting thing to look at is probably `engine.clj` which contains the full economics simulation.
 
 ## Setup
 
 To get an interactive development environment run:
 
     clojure -m figwheel.main -b dev -r
-
-and open your browser at [localhost:9500](http://localhost:9500/).
-This will auto compile and send all changes to the browser without the
-need to reload. After the compilation process is complete, you will
-get a Browser Connected REPL. An easy way to try it is:
-
-    (js/alert "Am I connected?")
-
-and you should see an alert in the browser window.
 
 ---
 _Copyright (c) Conrad Barski. All rights reserved._
