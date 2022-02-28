@@ -1,0 +1,3 @@
+{:ring-handler elon-tusk.server/handler
+ :ring-server-options {:port 9550}}
+ 

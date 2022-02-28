@@ -1,0 +1,5 @@
+{:main          elon-tusk.elon-tusk
+ :output-to     "resources/public/js/compiled/elon_tusk.js"
+ :output-dir    "resources/public/js/compiled/out"
+ :optimizations :advanced
+ :elide-asserts true}

@@ -1,0 +1,10 @@
+{:deps {com.bhauman/figwheel-main           {:mvn/version "0.2.9"}
+        com.bhauman/rebel-readline-cljs     {:mvn/version "0.1.4"}
+        org.clojure/clojurescript           {:mvn/version "1.10.773"},
+        org.clojure/core.async              {:mvn/version "0.4.490"}
+        qlkit-material-ui/qlkit-material-ui {:mvn/version "0.5.0-SNAPSHOT"}
+        cljs-http/cljs-http                 {:mvn/version "0.1.45"}
+        fbc-utils/fbc-utils                 {:local/root "../fbc-utils"}
+        net.cgrand/macrovich                {:mvn/version "0.2.1"}
+        snek                                {:local/root "../snek"}}
+ :paths ["src" "target" "resources"]}
