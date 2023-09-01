@@ -4,8 +4,7 @@
         org.clojure/core.async              {:mvn/version "0.4.490"}
         qlkit-material-ui/qlkit-material-ui {:mvn/version "0.5.0-SNAPSHOT"}
         cljs-http/cljs-http                 {:mvn/version "0.1.45"}
-        io.github.drcode/fbc-utils          {:git/tag "v0.0.3"
-                                             :git/sha "df91671"}
+        io.github.drcode/fbc-utils          {:git/sha "3d03cc053f779f3288bb4949a795532741f9e62b"}
         net.cgrand/macrovich                {:mvn/version "0.2.1"}
         io.github.drcode/snek               {:git/tag "v0.0.4"
                                              :git/sha "465682c"}}
